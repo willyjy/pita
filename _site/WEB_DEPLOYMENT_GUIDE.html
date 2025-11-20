@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>web_deployment_guide – Insurance Agent Exam Prep</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9344fb9851b4da3cab95007ef9d770dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Insurance Agent Exam Prep</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./00_START_HERE.html"> 
+<span class="menu-text">🏠 Start</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./EXAM_CHECKLIST.html"> 
+<span class="menu-text">✅ Checklist</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chapters" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📚 Chapters</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-chapters">    
+        <li>
+    <a class="dropdown-item" href="./Chapter_1_Study_Guide.html">
+ <span class="dropdown-text">Ch 1: Understanding Risks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_2_Study_Guide.html">
+ <span class="dropdown-text">Ch 2: Risk Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_3_Study_Guide.html">
+ <span class="dropdown-text">Ch 3: Needs Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_4_Study_Guide.html">
+ <span class="dropdown-text">Ch 4: Life Insurance ⭐</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_5_Study_Guide.html">
+ <span class="dropdown-text">Ch 5: Medical Insurance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_6_Study_Guide.html">
+ <span class="dropdown-text">Ch 6: Annuities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_7_Study_Guide.html">
+ <span class="dropdown-text">Ch 7: General Insurance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_8_Study_Guide.html">
+ <span class="dropdown-text">Ch 8: Takaful</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_9_Study_Guide.html">
+ <span class="dropdown-text">Ch 9: Legal Principles</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_10_Study_Guide.html">
+ <span class="dropdown-text">Ch 10: Consumer Protection</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Chapter_11_Study_Guide.html">
+ <span class="dropdown-text">Ch 11: SOCSO</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./FINAL_EXAM_SUMMARY.html"> 
+<span class="menu-text">⚡ Final Summary</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#web-deployment-guide" id="toc-web-deployment-guide" class="nav-link active" data-scroll-target="#web-deployment-guide">🌐 WEB DEPLOYMENT GUIDE</a>
+  <ul class="collapse">
+  <li><a href="#publishing-your-insurance-exam-prep-package-online" id="toc-publishing-your-insurance-exam-prep-package-online" class="nav-link" data-scroll-target="#publishing-your-insurance-exam-prep-package-online">Publishing Your Insurance Exam Prep Package Online</a></li>
+  <li><a href="#what-you-have" id="toc-what-you-have" class="nav-link" data-scroll-target="#what-you-have">📦 <strong>What You Have</strong></a></li>
+  <li><a href="#deployment-options" id="toc-deployment-options" class="nav-link" data-scroll-target="#deployment-options">🎯 <strong>3 DEPLOYMENT OPTIONS</strong></a>
+  <ul class="collapse">
+  <li><a href="#option-1-github-pages-free-recommended" id="toc-option-1-github-pages-free-recommended" class="nav-link" data-scroll-target="#option-1-github-pages-free-recommended"><strong>OPTION 1: GitHub Pages (FREE, Recommended)</strong> ⭐</a></li>
+  <li><a href="#option-2-quarto-website-professional" id="toc-option-2-quarto-website-professional" class="nav-link" data-scroll-target="#option-2-quarto-website-professional"><strong>OPTION 2: Quarto Website (PROFESSIONAL)</strong> ⭐⭐⭐</a></li>
+  <li><a href="#option-3-simple-html-with-github-pages" id="toc-option-3-simple-html-with-github-pages" class="nav-link" data-scroll-target="#option-3-simple-html-with-github-pages"><strong>OPTION 3: Simple HTML with GitHub Pages</strong></a></li>
+  </ul></li>
+  <li><a href="#comparison-table" id="toc-comparison-table" class="nav-link" data-scroll-target="#comparison-table">📊 <strong>COMPARISON TABLE</strong></a></li>
+  <li><a href="#what-your-website-will-look-like" id="toc-what-your-website-will-look-like" class="nav-link" data-scroll-target="#what-your-website-will-look-like">🎨 <strong>WHAT YOUR WEBSITE WILL LOOK LIKE</strong></a>
+  <ul class="collapse">
+  <li><a href="#with-quarto-recommended" id="toc-with-quarto-recommended" class="nav-link" data-scroll-target="#with-quarto-recommended"><strong>With Quarto (Recommended):</strong></a></li>
+  </ul></li>
+  <li><a href="#recommended-workflow" id="toc-recommended-workflow" class="nav-link" data-scroll-target="#recommended-workflow">🚀 <strong>RECOMMENDED WORKFLOW</strong></a>
+  <ul class="collapse">
+  <li><a href="#for-quick-setup-15-minutes" id="toc-for-quick-setup-15-minutes" class="nav-link" data-scroll-target="#for-quick-setup-15-minutes"><strong>For Quick Setup (15 minutes):</strong></a></li>
+  <li><a href="#for-professional-site-30-minutes" id="toc-for-professional-site-30-minutes" class="nav-link" data-scroll-target="#for-professional-site-30-minutes"><strong>For Professional Site (30 minutes):</strong></a></li>
+  </ul></li>
+  <li><a href="#post-deployment-checklist" id="toc-post-deployment-checklist" class="nav-link" data-scroll-target="#post-deployment-checklist">📝 <strong>POST-DEPLOYMENT CHECKLIST</strong></a></li>
+  <li><a href="#updating-content" id="toc-updating-content" class="nav-link" data-scroll-target="#updating-content">🔄 <strong>UPDATING CONTENT</strong></a>
+  <ul class="collapse">
+  <li><a href="#with-github-pages" id="toc-with-github-pages" class="nav-link" data-scroll-target="#with-github-pages"><strong>With GitHub Pages:</strong></a></li>
+  <li><a href="#with-quarto" id="toc-with-quarto" class="nav-link" data-scroll-target="#with-quarto"><strong>With Quarto:</strong></a></li>
+  </ul></li>
+  <li><a href="#access-control-options" id="toc-access-control-options" class="nav-link" data-scroll-target="#access-control-options">🎯 <strong>ACCESS CONTROL OPTIONS</strong></a>
+  <ul class="collapse">
+  <li><a href="#public-access-free" id="toc-public-access-free" class="nav-link" data-scroll-target="#public-access-free"><strong>Public Access (Free):</strong></a></li>
+  <li><a href="#private-access-requires-upgrade" id="toc-private-access-requires-upgrade" class="nav-link" data-scroll-target="#private-access-requires-upgrade"><strong>Private Access (Requires upgrade):</strong></a></li>
+  </ul></li>
+  <li><a href="#mobile-access" id="toc-mobile-access" class="nav-link" data-scroll-target="#mobile-access">📱 <strong>MOBILE ACCESS</strong></a></li>
+  <li><a href="#tips-for-success" id="toc-tips-for-success" class="nav-link" data-scroll-target="#tips-for-success">💡 <strong>TIPS FOR SUCCESS</strong></a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">🆘 <strong>TROUBLESHOOTING</strong></a>
+  <ul class="collapse">
+  <li><a href="#files-not-showing-up" id="toc-files-not-showing-up" class="nav-link" data-scroll-target="#files-not-showing-up"><strong>Files not showing up:</strong></a></li>
+  <li><a href="#markdown-not-rendering" id="toc-markdown-not-rendering" class="nav-link" data-scroll-target="#markdown-not-rendering"><strong>Markdown not rendering:</strong></a></li>
+  <li><a href="#quarto-build-errors" id="toc-quarto-build-errors" class="nav-link" data-scroll-target="#quarto-build-errors"><strong>Quarto build errors:</strong></a></li>
+  <li><a href="#links-broken" id="toc-links-broken" class="nav-link" data-scroll-target="#links-broken"><strong>Links broken:</strong></a></li>
+  </ul></li>
+  <li><a href="#recommended-setup-for-your-case" id="toc-recommended-setup-for-your-case" class="nav-link" data-scroll-target="#recommended-setup-for-your-case">📞 <strong>RECOMMENDED SETUP FOR YOUR CASE</strong></a>
+  <ul class="collapse">
+  <li><a href="#best-choice-quarto-github-pages" id="toc-best-choice-quarto-github-pages" class="nav-link" data-scroll-target="#best-choice-quarto-github-pages"><strong>BEST CHOICE: Quarto + GitHub Pages</strong></a></li>
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps"><strong>Steps:</strong></a></li>
+  </ul></li>
+  <li><a href="#example-urls" id="toc-example-urls" class="nav-link" data-scroll-target="#example-urls">🌐 <strong>EXAMPLE URLS</strong></a></li>
+  <li><a href="#files-already-configured" id="toc-files-already-configured" class="nav-link" data-scroll-target="#files-already-configured">📋 <strong>FILES ALREADY CONFIGURED</strong></a></li>
+  <li><a href="#final-recommendations" id="toc-final-recommendations" class="nav-link" data-scroll-target="#final-recommendations">🎓 <strong>FINAL RECOMMENDATIONS</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="web-deployment-guide" class="level1">
+<h1>🌐 WEB DEPLOYMENT GUIDE</h1>
+<section id="publishing-your-insurance-exam-prep-package-online" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-your-insurance-exam-prep-package-online">Publishing Your Insurance Exam Prep Package Online</h2>
+<hr>
+</section>
+<section id="what-you-have" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-have">📦 <strong>What You Have</strong></h2>
+<ul>
+<li>16 markdown (.md) files in <code>/mnt/user-data/outputs/</code></li>
+<li>Total: 489KB content, ready to publish</li>
+<li>✅ Quarto configuration files created (_quarto.yml, styles.css)</li>
+</ul>
+<hr>
+</section>
+<section id="deployment-options" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-options">🎯 <strong>3 DEPLOYMENT OPTIONS</strong></h2>
+<section id="option-1-github-pages-free-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="option-1-github-pages-free-recommended"><strong>OPTION 1: GitHub Pages (FREE, Recommended)</strong> ⭐</h3>
+<p><strong>Best for</strong>: Public access, free hosting, easy updates</p>
+<section id="step-by-step" class="level4">
+<h4 class="anchored" data-anchor-id="step-by-step"><strong>Step-by-Step:</strong></h4>
+<p><strong>1. Download Your Files</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># All files are in /mnt/user-data/outputs/</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Download the entire folder to your computer</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>2. Create GitHub Repository</strong> - Go to https://github.com/new - Name: <code>insurance-exam-prep</code> (or your choice) - Visibility: Public (for free GitHub Pages) - Click “Create repository”</p>
+<p><strong>3. Upload Files to GitHub</strong></p>
+<p><strong>Option A: Using GitHub Web Interface</strong> (Easiest) - Click “uploading an existing file” - Drag all 16 files from outputs folder - Commit changes</p>
+<p><strong>Option B: Using Git Command Line</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /path/to/outputs/folder</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit: Module 2 exam prep"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-M</span> main</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/YOUR-USERNAME/insurance-exam-prep.git</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>4. Enable GitHub Pages</strong> - Go to repository Settings → Pages - Source: Deploy from branch - Branch: main - Folder: / (root) - Click Save</p>
+<p><strong>5. Access Your Website</strong> - URL: <code>https://YOUR-USERNAME.github.io/insurance-exam-prep/</code> - Wait 2-5 minutes for deployment - Open <code>00_START_HERE.md</code> or <code>index.html</code></p>
+<p><strong>Note</strong>: GitHub automatically renders .md files as HTML!</p>
+<hr>
+</section>
+</section>
+<section id="option-2-quarto-website-professional" class="level3">
+<h3 class="anchored" data-anchor-id="option-2-quarto-website-professional"><strong>OPTION 2: Quarto Website (PROFESSIONAL)</strong> ⭐⭐⭐</h3>
+<p><strong>Best for</strong>: Professional appearance, advanced features, searchable content</p>
+<section id="step-by-step-1" class="level4">
+<h4 class="anchored" data-anchor-id="step-by-step-1"><strong>Step-by-Step:</strong></h4>
+<p><strong>1. Install Quarto</strong> - Download from: https://quarto.org/docs/get-started/ - Install on your computer</p>
+<p><strong>2. Navigate to Outputs Folder</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /mnt/user-data/outputs/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>3. Render the Website</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates a <code>_site</code> folder with HTML files</p>
+<p><strong>4. Preview Locally (Optional)</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Opens browser at http://localhost:4200</p>
+<p><strong>5. Publish Options:</strong></p>
+<p><strong>A. GitHub Pages</strong> (Recommended)</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Creates/updates gh-pages branch</li>
+<li>Automatic deployment</li>
+<li>URL: <code>https://YOUR-USERNAME.github.io/insurance-exam-prep/</code></li>
+</ul>
+<p><strong>B. Quarto Pub</strong> (Free Posit Hosting)</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish quarto-pub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Free hosting by Posit</li>
+<li>Easy authentication</li>
+<li>URL: <code>https://YOUR-USERNAME.quarto.pub/insurance-exam-prep/</code></li>
+</ul>
+<p><strong>C. Netlify</strong> (Free hosting with custom domain)</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish netlify</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Drag &amp; drop deployment</li>
+<li>Free SSL certificate</li>
+<li>Custom domain support</li>
+</ul>
+<p><strong>D. Posit Connect</strong> (Enterprise, requires license)</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish connect</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Internal company hosting</li>
+<li>Access controls</li>
+<li>Analytics</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="option-3-simple-html-with-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="option-3-simple-html-with-github-pages"><strong>OPTION 3: Simple HTML with GitHub Pages</strong></h3>
+<p><strong>Best for</strong>: Quick setup without Quarto</p>
+<section id="already-created-for-you" class="level4">
+<h4 class="anchored" data-anchor-id="already-created-for-you"><strong>Already Created for You!</strong></h4>
+<p>An <code>index.html</code> file has been created. Just:</p>
+<p><strong>1. Download files</strong> <strong>2. Upload to GitHub repository</strong> <strong>3. Enable GitHub Pages</strong> <strong>4. Done!</strong></p>
+<p>Your site will have: - Beautiful landing page - All chapters linked - Professional design - Mobile responsive</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="comparison-table" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-table">📊 <strong>COMPARISON TABLE</strong></h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>GitHub Pages</th>
+<th>Quarto + GitHub</th>
+<th>Netlify</th>
+<th>Quarto Pub</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Cost</strong></td>
+<td>Free</td>
+<td>Free</td>
+<td>Free</td>
+<td>Free</td>
+</tr>
+<tr class="even">
+<td><strong>Setup Time</strong></td>
+<td>5 min</td>
+<td>10 min</td>
+<td>5 min</td>
+<td>5 min</td>
+</tr>
+<tr class="odd">
+<td><strong>Custom Domain</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr class="even">
+<td><strong>Search</strong></td>
+<td>❌</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr class="odd">
+<td><strong>Navigation</strong></td>
+<td>Basic</td>
+<td>Advanced</td>
+<td>Basic</td>
+<td>Advanced</td>
+</tr>
+<tr class="even">
+<td><strong>Updates</strong></td>
+<td>Git push</td>
+<td>Git push</td>
+<td>Git push</td>
+<td>Quarto publish</td>
+</tr>
+<tr class="odd">
+<td><strong>Best For</strong></td>
+<td>Quick</td>
+<td>Professional</td>
+<td>Custom</td>
+<td>Posit users</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="what-your-website-will-look-like" class="level2">
+<h2 class="anchored" data-anchor-id="what-your-website-will-look-like">🎨 <strong>WHAT YOUR WEBSITE WILL LOOK LIKE</strong></h2>
+<section id="with-quarto-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="with-quarto-recommended"><strong>With Quarto (Recommended):</strong></h3>
+<pre><code>╔══════════════════════════════════════════════╗
+║  Insurance Agent Exam Prep - Module 2       ║
+║  ┌────────┬─────────┬──────────┬─────────┐  ║
+║  │🏠 Start│✅ Check │📚 Chapters│⚡Summary │  ║
+║  └────────┴─────────┴──────────┴─────────┘  ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║  📋 Table of Contents    │  📄 Content       ║
+║  ├─ Section 1            │                   ║
+║  ├─ Section 2            │  Your markdown    ║
+║  ├─ Section 3            │  content          ║
+║  └─ Section 4            │  rendered         ║
+║                          │  beautifully      ║
+╚══════════════════════════════════════════════╝</code></pre>
+<p><strong>Features:</strong> - ✅ Professional navigation bar - ✅ Automatic table of contents - ✅ Syntax highlighting - ✅ Mobile responsive - ✅ Search functionality - ✅ Print-friendly</p>
+<hr>
+</section>
+</section>
+<section id="recommended-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-workflow">🚀 <strong>RECOMMENDED WORKFLOW</strong></h2>
+<section id="for-quick-setup-15-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="for-quick-setup-15-minutes"><strong>For Quick Setup (15 minutes):</strong></h3>
+<ol type="1">
+<li><strong>Download</strong> all files from <code>/mnt/user-data/outputs/</code></li>
+<li><strong>Create</strong> GitHub repository</li>
+<li><strong>Upload</strong> all files</li>
+<li><strong>Enable</strong> GitHub Pages</li>
+<li><strong>Share</strong> URL with your agents</li>
+</ol>
+</section>
+<section id="for-professional-site-30-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="for-professional-site-30-minutes"><strong>For Professional Site (30 minutes):</strong></h3>
+<ol type="1">
+<li><strong>Install</strong> Quarto on your computer</li>
+<li><strong>Download</strong> all files</li>
+<li><strong>Run</strong> <code>quarto render</code> in folder</li>
+<li><strong>Run</strong> <code>quarto publish gh-pages</code></li>
+<li><strong>Customize</strong> _quarto.yml if needed</li>
+<li><strong>Share</strong> URL</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="post-deployment-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="post-deployment-checklist">📝 <strong>POST-DEPLOYMENT CHECKLIST</strong></h2>
+<p>After publishing, verify:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Landing page loads (00_START_HERE.md or index.html)</label></li>
+<li><label><input type="checkbox">All chapter links work</label></li>
+<li><label><input type="checkbox">Files display correctly</label></li>
+<li><label><input type="checkbox">Mobile view works</label></li>
+<li><label><input type="checkbox">Search works (if using Quarto)</label></li>
+<li><label><input type="checkbox">Navigation bar functions</label></li>
+<li><label><input type="checkbox">Tables render properly</label></li>
+<li><label><input type="checkbox">Code blocks display correctly</label></li>
+</ul>
+<hr>
+</section>
+<section id="updating-content" class="level2">
+<h2 class="anchored" data-anchor-id="updating-content">🔄 <strong>UPDATING CONTENT</strong></h2>
+<section id="with-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="with-github-pages"><strong>With GitHub Pages:</strong></h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make changes to files</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update Chapter 4 content"</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Site updates automatically in 2-5 minutes</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="with-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="with-quarto"><strong>With Quarto:</strong></h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make changes to files</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or just: git push (if auto-deploy configured)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+<section id="access-control-options" class="level2">
+<h2 class="anchored" data-anchor-id="access-control-options">🎯 <strong>ACCESS CONTROL OPTIONS</strong></h2>
+<section id="public-access-free" class="level3">
+<h3 class="anchored" data-anchor-id="public-access-free"><strong>Public Access (Free):</strong></h3>
+<ul>
+<li>Anyone with URL can access</li>
+<li>Good for: General training, public resources</li>
+</ul>
+</section>
+<section id="private-access-requires-upgrade" class="level3">
+<h3 class="anchored" data-anchor-id="private-access-requires-upgrade"><strong>Private Access (Requires upgrade):</strong></h3>
+<ul>
+<li><strong>GitHub Private Repo</strong> + GitHub Pages: Free for limited users</li>
+<li><strong>Netlify Password Protection</strong>: Paid plan required</li>
+<li><strong>Posit Connect</strong>: Enterprise, full access control</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="mobile-access" class="level2">
+<h2 class="anchored" data-anchor-id="mobile-access">📱 <strong>MOBILE ACCESS</strong></h2>
+<p>All options are mobile-responsive: - ✅ Phones (iPhone, Android) - ✅ Tablets (iPad, etc.) - ✅ Desktop computers - ✅ Print-friendly</p>
+<hr>
+</section>
+<section id="tips-for-success" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-success">💡 <strong>TIPS FOR SUCCESS</strong></h2>
+<p><strong>1. Test Links</strong> - Click through all chapters - Verify internal links work - Check question links</p>
+<p><strong>2. Share Properly</strong></p>
+<pre><code>Good: https://username.github.io/insurance-exam-prep/00_START_HERE.html
+Bad:  https://username.github.io/insurance-exam-prep/00_START_HERE.md</code></pre>
+<p><strong>3. Bookmark Structure</strong> - Share main URL with agents - They can bookmark specific chapters - Each file has unique URL</p>
+<p><strong>4. Analytics (Optional)</strong> - Add Google Analytics to track usage - See which chapters most viewed - Monitor agent engagement</p>
+<hr>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">🆘 <strong>TROUBLESHOOTING</strong></h2>
+<section id="files-not-showing-up" class="level3">
+<h3 class="anchored" data-anchor-id="files-not-showing-up"><strong>Files not showing up:</strong></h3>
+<ul>
+<li>Check GitHub Pages is enabled</li>
+<li>Wait 5 minutes for deployment</li>
+<li>Check branch is correct (main)</li>
+</ul>
+</section>
+<section id="markdown-not-rendering" class="level3">
+<h3 class="anchored" data-anchor-id="markdown-not-rendering"><strong>Markdown not rendering:</strong></h3>
+<ul>
+<li>Ensure files end in .md</li>
+<li>Check file encoding (UTF-8)</li>
+<li>Try renaming to .html extension</li>
+</ul>
+</section>
+<section id="quarto-build-errors" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-build-errors"><strong>Quarto build errors:</strong></h3>
+<ul>
+<li>Check _quarto.yml syntax</li>
+<li>Ensure all files referenced exist</li>
+<li>Run <code>quarto check</code> for diagnostics</li>
+</ul>
+</section>
+<section id="links-broken" class="level3">
+<h3 class="anchored" data-anchor-id="links-broken"><strong>Links broken:</strong></h3>
+<ul>
+<li>Use relative paths (Chapter_1_Study_Guide.md)</li>
+<li>Not absolute paths (/full/path/…)</li>
+<li>Check capitalization (case-sensitive)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="recommended-setup-for-your-case" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-setup-for-your-case">📞 <strong>RECOMMENDED SETUP FOR YOUR CASE</strong></h2>
+<p>Based on your needs (training insurance agents):</p>
+<section id="best-choice-quarto-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="best-choice-quarto-github-pages"><strong>BEST CHOICE: Quarto + GitHub Pages</strong></h3>
+<p><strong>Why:</strong> 1. ✅ Professional appearance 2. ✅ Free hosting 3. ✅ Easy updates 4. ✅ Search functionality 5. ✅ Mobile-friendly 6. ✅ Print-ready</p>
+<p><strong>Setup Time:</strong> 30 minutes <strong>Maintenance:</strong> Easy (git push to update) <strong>Cost:</strong> FREE</p>
+</section>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps"><strong>Steps:</strong></h3>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">1.</span> Install Quarto</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="ex">2.</span> cd /mnt/user-data/outputs/</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="ex">3.</span> quarto render</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="ex">4.</span> quarto publish gh-pages</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="ex">5.</span> Share URL with agents</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Done!</strong> 🎉</p>
+<hr>
+</section>
+</section>
+<section id="example-urls" class="level2">
+<h2 class="anchored" data-anchor-id="example-urls">🌐 <strong>EXAMPLE URLS</strong></h2>
+<p>After deployment, your agents access via:</p>
+<p><strong>Main entry:</strong> - <code>https://your-username.github.io/insurance-exam-prep/</code></p>
+<p><strong>Direct chapters:</strong> - <code>https://your-username.github.io/insurance-exam-prep/Chapter_1_Study_Guide.html</code> - <code>https://your-username.github.io/insurance-exam-prep/Chapter_4_Study_Guide.html</code></p>
+<p><strong>Quick reference:</strong> - <code>https://your-username.github.io/insurance-exam-prep/EXAM_CHECKLIST.html</code> - <code>https://your-username.github.io/insurance-exam-prep/FINAL_EXAM_SUMMARY.html</code></p>
+<hr>
+</section>
+<section id="files-already-configured" class="level2">
+<h2 class="anchored" data-anchor-id="files-already-configured">📋 <strong>FILES ALREADY CONFIGURED</strong></h2>
+<p>In <code>/mnt/user-data/outputs/</code>, you now have:</p>
+<p>✅ <code>_quarto.yml</code> - Website configuration ✅ <code>styles.css</code> - Professional styling ✅ <code>index.html</code> - Landing page (if not using Quarto) ✅ All 16 markdown files ready to publish</p>
+<p><strong>Just follow steps above and you’re live!</strong></p>
+<hr>
+</section>
+<section id="final-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="final-recommendations">🎓 <strong>FINAL RECOMMENDATIONS</strong></h2>
+<p><strong>For Internal Training:</strong> - Use: Quarto + GitHub Pages - Benefit: Professional, free, easy updates</p>
+<p><strong>For Public Release:</strong> - Use: Quarto + Netlify - Benefit: Custom domain, better performance</p>
+<p><strong>For Quick Test:</strong> - Use: GitHub Pages only - Benefit: 5-minute setup</p>
+<hr>
+<p><strong>Choose your option and let’s get your study materials online! 🚀</strong></p>
+<hr>
+<p><em>All necessary configuration files are ready in /mnt/user-data/outputs/</em><br>
+<em>© 2025 - Web Deployment Guide for Insurance Exam Prep</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2025 Insurance Agent Exam Preparation | Module 2: 100% Coverage</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

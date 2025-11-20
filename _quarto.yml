@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Insurance Agent Exam Prep"
+  description: "Module 2: Risk Management & Insurance Planning"
+  navbar:
+    background: primary
+    left:
+      - text: "🏠 Start"
+        href: 00_START_HERE.md
+      - text: "✅ Checklist"
+        href: EXAM_CHECKLIST.md
+      - text: "📚 Chapters"
+        menu:
+          - text: "Ch 1: Understanding Risks"
+            href: Chapter_1_Study_Guide.md
+          - text: "Ch 2: Risk Management"
+            href: Chapter_2_Study_Guide.md
+          - text: "Ch 3: Needs Analysis"
+            href: Chapter_3_Study_Guide.md
+          - text: "Ch 4: Life Insurance ⭐"
+            href: Chapter_4_Study_Guide.md
+          - text: "Ch 5: Medical Insurance"
+            href: Chapter_5_Study_Guide.md
+          - text: "Ch 6: Annuities"
+            href: Chapter_6_Study_Guide.md
+          - text: "Ch 7: General Insurance"
+            href: Chapter_7_Study_Guide.md
+          - text: "Ch 8: Takaful"
+            href: Chapter_8_Study_Guide.md
+          - text: "Ch 9: Legal Principles"
+            href: Chapter_9_Study_Guide.md
+          - text: "Ch 10: Consumer Protection"
+            href: Chapter_10_Study_Guide.md
+          - text: "Ch 11: SOCSO"
+            href: Chapter_11_Study_Guide.md
+      - text: "⚡ Final Summary"
+        href: FINAL_EXAM_SUMMARY.md
+  page-footer:
+    center: "© 2025 Insurance Agent Exam Preparation | Module 2: 100% Coverage"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
+    code-fold: false
+    code-tools: false
